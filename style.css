@@ -1,0 +1,161 @@
+body {
+  background-image: url('./img/main-bg.jpeg');
+  width: 100%;
+  height: 100vh;
+  background-size: 1440px 800px;
+}
+
+.navbarWrapper ul{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+  text-decoration: none;
+  font-size: 28px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.twitter {
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.facebook {
+  float: right;
+  margin-right: 15px;
+  margin-top: 10px;
+}
+
+.arrowDownWrapper {
+  padding-right: 27px;
+  text-align: center;
+}
+
+i {
+  color: white;
+  margin-left: 27px;
+  margin-top: 27px;
+}
+
+.mainText {
+  color: white;
+  text-align: center;
+  line-height: 75vh;
+}
+
+span {
+  text-align: center;
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+}
+
+.your {
+  font-size: 120px;
+}
+
+@media screen and (max-width: 1440px) {
+  body {
+    background-size: 100% 100vh;
+  }
+
+  .hamburgerWrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  body {
+    background-size: 100% 100vh;
+  }
+
+  .hamburgerWrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  body {
+    background-size: 100% 100vh;
+  }
+
+  .hamburgerWrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  body {
+    background-size: 100% 100vh;
+  }
+
+  .hamburgerWrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    background-size: 100% 100vh;
+  }
+
+  .hamburgerWrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  body {
+    background-size: 100% 100vh;
+  }
+
+  .hamburgerWrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  body {
+    background-size: 100% 100vh;
+  }
+
+  .hamburgerWrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-size: 100% 100vh;
+  }
+
+  .hamburgerWrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-size: 100% 100vh;
+  }
+
+  .hamburgerWrapper {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 699px) {
+  body {
+    background-size: 100% 100vh;
+  }
+
+  .navbarWrapper {
+    display: none;
+  }
+
+  .hamburgerWrapper {
+    display: inline;
+  }
+}
